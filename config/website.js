@@ -6,7 +6,7 @@ module.exports = {
   siteTitle: 'CodeNaija', // Navigation and Site Title
   siteTitleAlt: 'CodeNaija', // Alternative Site title for SEO
   siteTitleShort: 'CodeNaija', // short_name for manifest
-  siteHeadline: 'An internation hackathon to showcase Nigerian Developer talent', // Headline for schema.org JSONLD
+  siteHeadline: 'An international hackathon to showcase Nigerian Developer talent', // Headline for schema.org JSONLD
   siteUrl: 'https://codenaija.org', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
   siteLogo: '/logo.png', // Used for SEO and manifest
