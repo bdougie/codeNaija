@@ -1,4 +1,3 @@
 User-agent: *
 Disallow:
-
-sitemap: https://cara.lekoarts.de/sitemap.xml
+Sitemap: https://gu.fabianschultz.com/sitemap.xml

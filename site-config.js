@@ -1,4 +1,4 @@
-const tailwind = require('../tailwind')
+const path = require('path');
 
 module.exports = {
   pathPrefix: null,
@@ -8,16 +8,13 @@ module.exports = {
   siteHeadline: 'An international hackathon to showcase Nigerian Developer talent', // Headline for schema.org JSONLD
   siteUrl: 'https://www.codenaija.org', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
-  siteLogo: '/logo.png', // Used for SEO and manifest
   siteDescription: 'An internation hackathon to showcase Nigerian Developer talent',
   author: 'bdougie', // Author for schema.org JSONLD
-
-  // siteFBAppID: '123456789', // Facebook App ID - Optional
-  userTwitter: '@githubcommunity', // Twitter Username
-  ogSiteName: 'codenaija', // Facebook Site Name
-  ogLanguage: 'en_US', // Facebook Language
-
-  // Manifest and Progress color
-  themeColor: tailwind.colors.orange,
-  backgroundColor: tailwind.colors.blue,
-}
+  themeColor: `#000`,
+  backgroundColor: `#fff`,
+  pathPrefix: null,
+  logo: path.resolve(__dirname, 'src/images/icon.png'),
+  social: {
+    twitter: `blacktocats`,
+  },
+};
