@@ -8,7 +8,7 @@ module.exports = {
   siteHeadline: 'An international hackathon to showcase Nigerian Developer talent', // Headline for schema.org JSONLD
   siteUrl: 'https://www.codenaija.org', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
-  siteDescription: 'An internation hackathon to showcase Nigerian Developer talent',
+  siteDescription: 'An international hackathon to showcase Nigerian Developer talent',
   author: 'bdougie', // Author for schema.org JSONLD
   themeColor: `#000`,
   backgroundColor: `#fff`,
