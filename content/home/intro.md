@@ -1,1 +1,1 @@
-CodeNaija is a Nigerian hackathon hosted by the GitHub Blacktocats and "To Be Annouce Partner". 
+CodeNaija is a Nigerian hackathon presented by the GitHub Blacktocats and "To Be Annouce Partner" on 5 October 2019.
