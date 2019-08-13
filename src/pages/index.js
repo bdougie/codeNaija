@@ -6,7 +6,7 @@ import Title from 'components/title';
 import Gallery from 'components/gallery';
 import IOExample from 'components/io-example';
 import Modal from 'containers/modal';
-import { graphql } from 'gatsby';
+import { graphql, PrimaryButton } from 'gatsby';
 
 const Index = ({ data }) => (
   <Layout>
@@ -14,16 +14,9 @@ const Index = ({ data }) => (
       <Title as="h2" size="large">
         {data.homeJson.content.childMarkdownRemark.rawMarkdownBody}
       </Title>
-      <Modal>
-        <video
-          src="https://i.imgur.com/gzFqNSW.mp4"
-          playsInline
-          loop
-          autoPlay
-          muted
-        />
-      </Modal>
     </Box>
+<PrimaryButton>Click me</PrimaryButton>
+      
     <Gallery items={data.homeJson.gallery} />
     <div style={{ height: '50vh' }} />
     <IOExample />

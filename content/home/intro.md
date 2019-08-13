@@ -1,1 +1,1 @@
-An opinionated starter for using Gatsby v2 with React Context, tag-agnostic styled-components, page transitions and scroll events with IntersectionObserver.
+CodeNaija seeks to highlight the community of Nigerian developers by showcasing their amazing talent and work.
