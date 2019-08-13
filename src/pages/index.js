@@ -5,8 +5,40 @@ import Box from "components/box";
 import Title from "components/title";
 import Gallery from "components/gallery";
 import IOExample from "components/io-example";
-import Modal from "containers/modal";
 import {graphql} from "gatsby";
+import styled from 'styled-components';
+
+// moves this to a Component
+export const Button = styled.button`
+  -webkit-appearance: none;
+  background-color: #fff;
+  border-radius: 5px;
+  border: none;
+  color: #757575;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin: 4rem 0 2rem;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  transition: 0.2s background-color ease;
+
+  &:active,
+  &:focus {
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.05);
+    outline: none;
+  }
+
+  &:hover {
+    background-color: #f9f9f9;
+  }
+
+  & + & {
+    margin-left: 1rem;
+  }
+`;
 
 const Index = ({data}) => (
   <Layout>
@@ -27,8 +59,8 @@ const Index = ({data}) => (
       Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
       of Lorem Ipsum.
       </Title>
+      <a href="https://forms.gle/D3y3VVxTiugGPekk9"><Button>Apply to CodeNaija</Button></a>
     </Box>
-    <button>Call to Action - styling coming soon</button>
     <div style={{height: "50vh"}} />
     <Box>
       <Title as="p" size="smal">

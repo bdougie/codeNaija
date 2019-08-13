@@ -7,4 +7,5 @@ We will do this by incorporating Black talent from the US to aid and assist. We 
 Due to the limited space, we are asking all potential particpants to complete a questionnaire to reserve a place in the hackathon.
 
 
-<a>Please fill out our application</a>
+
+<a href="https://forms.gle/D3y3VVxTiugGPekk9">Please fill out our application</button>
