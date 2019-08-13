@@ -2,18 +2,19 @@
   "title": "Home",
   "content": "intro.md",
   "gallery": [{
-    "title": "React Context",
-    "copy": "For global styles.",
-    "image": "../images/gallery/react-context.jpg"
+    "title": "Showcase",
+    "copy": "Showcase your developer talent",
+    "image": "../images/gallery/suad-kamardeen-J-D50rg44aw-unsplash.jpg"
   },
   {
-    "title": "Page Transitions",
-    "copy": "Component-based for easy usage.",
-    "image": "../images/gallery/page-transitions.jpg"
+    "title": "Learn",
+    "copy": "Access and learn the latest developer resources",
+    "image": "../images/gallery/nesa-by-makers-vII7qKAk-9A-unsplash.jpg"
   },
   {
-    "title": "Intersection Observer",
-    "copy": "Including a polyfill for Safari.",
-    "image": "../images/gallery/intersection-observer.jpg"
-  }]
+    "title": "Impact",
+    "copy": "Impact the Nigerian developer community",
+    "image": "../images/gallery/temitayo-aina-tmz3Z1L1qaQ-unsplash.jpg"
+  }],
+  "body": "body.md"
 }

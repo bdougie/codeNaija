@@ -6,7 +6,7 @@ import Title from 'components/title';
 import Gallery from 'components/gallery';
 import IOExample from 'components/io-example';
 import Modal from 'containers/modal';
-import { graphql, PrimaryButton } from 'gatsby';
+import { graphql } from 'gatsby';
 
 const Index = ({ data }) => (
   <Layout>
@@ -15,11 +15,8 @@ const Index = ({ data }) => (
         {data.homeJson.content.childMarkdownRemark.rawMarkdownBody}
       </Title>
     </Box>
-<PrimaryButton>Click me</PrimaryButton>
-      
     <Gallery items={data.homeJson.gallery} />
     <div style={{ height: '50vh' }} />
-    <IOExample />
   </Layout>
 );
 
