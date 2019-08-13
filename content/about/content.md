@@ -8,4 +8,4 @@ Due to the limitation space, we are asking all potential particpants
 fill out a questionairre so we offer a place in the hackathon.
 
 
-<a>Please fill out our application</button>
+<a href="https://forms.gle/D3y3VVxTiugGPekk9">Please fill out our application</button>

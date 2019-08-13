@@ -59,7 +59,7 @@ const Index = ({data}) => (
       Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
       of Lorem Ipsum.
       </Title>
-      <Button>Apply to CodeNaija</Button>
+      <a href="https://forms.gle/D3y3VVxTiugGPekk9"><Button>Apply to CodeNaija</Button></a>
     </Box>
     <div style={{height: "50vh"}} />
     <Box>
