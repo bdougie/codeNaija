@@ -57,7 +57,7 @@ const Index = ({data}) => (
           talent and work.
         </p>
         <p>
-          Each hackathon team will focus improving reach to the greater Nigerian developer community while leveraging
+          Each hackathon team will focus on improving reach to the greater Nigerian developer community while leveraging
           open source technologies to do so.
         </p>
       </Title>
