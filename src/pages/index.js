@@ -6,7 +6,7 @@ import Title from "components/title";
 import Gallery from "components/gallery";
 import IOExample from "components/io-example";
 import {graphql} from "gatsby";
-import styled from 'styled-components';
+import styled from "styled-components";
 
 // moves this to a Component
 export const Button = styled.button`
@@ -50,21 +50,25 @@ const Index = ({data}) => (
     <Gallery items={data.homeJson.gallery} />
     <Box>
       <Title as="p" size="medium">
-      This is where the WHY we are doing this will go
-
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-      standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
-      type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
-      remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
-      Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
-      of Lorem Ipsum.
+        <p>Nigeria is the 4th fast growing developer community in the world and largest in Africa.</p>
+        <p>
+          CodeNaija is a Nigerian hackathon hosted by the Blacktocats, GitHub's Black Employee Resource Group. Our goal
+          for the hackathon is to highlight the existing community of Nigerian developers by showcasing their amazing
+          talent and work.
+        </p>
+        <p>
+          Each hackathon team will focus improving reach to the greater Nigerian developer community while leveraging
+          open source technologies to do so.
+        </p>
       </Title>
-      <a href="https://forms.gle/D3y3VVxTiugGPekk9"><Button>Apply to CodeNaija</Button></a>
+      <a href="https://forms.gle/D3y3VVxTiugGPekk9">
+        <Button>Apply to hack at CodeNaija</Button>
+      </a>
     </Box>
     <div style={{height: "50vh"}} />
     <Box>
       <Title as="p" size="smal">
-      © 2019 GitHub Blacktocats
+        © 2019 GitHub Blacktocats
       </Title>
     </Box>
   </Layout>
