@@ -60,6 +60,9 @@ const Index = ({data}) => (
           Each hackathon team will focus on improving reach to the greater Nigerian developer community while leveraging
           open source technologies to do so.
         </p>
+        <p>
+          Join us October 5th, 2019
+        </p>
       </Title>
       <a href="https://forms.gle/D3y3VVxTiugGPekk9">
         <Button>Apply to hack at CodeNaija</Button>
