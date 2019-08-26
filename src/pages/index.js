@@ -52,7 +52,7 @@ const Index = ({data}) => (
       <Title as="p" size="medium">
         <p>Nigeria is the 4th fast growing developer community in the world and largest in Africa.</p>
         <p>
-          CodeNaija is a Nigerian hackathon hosted by the Blacktocats, GitHub's Black Employee Resource Group. Our goal
+          CodeNaija is a Nigerian hackathon hosted by the <a href="https://andela.com/">Andela</a> and the <a href="https://twitter.com/blacktocats">Blacktocats</a>, GitHub's Black Employee Resource Group. Our goal
           for the hackathon is to highlight the existing community of Nigerian developers by showcasing their amazing
           talent and work.
         </p>

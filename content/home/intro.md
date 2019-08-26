@@ -1,1 +1,1 @@
-CodeNaija is a Nigerian hackathon presented by the GitHub Blacktocats and Andela
+CodeNaija is a Nigerian hackathon presented by the Andela and the GitHub Blacktocats.
