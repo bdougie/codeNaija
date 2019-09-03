@@ -4,7 +4,6 @@ on:
   pull_request:
     branches:
     - master
-on:
   push:
     # branches to consider in the event; optional, defaults to all
     branches:
