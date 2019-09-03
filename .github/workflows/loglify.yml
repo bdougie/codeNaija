@@ -1,0 +1,20 @@
+name: Logs for Netlify
+
+on:
+  pull_request:
+    branches:
+    - master
+on:
+  push:
+    # branches to consider in the event; optional, defaults to all
+    branches:
+      - master
+      
+jobs:
+  logs4netlify:
+    name: Logs for Netlify
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Deploy Logs
+      uses: bdougie/loglify@master
