@@ -4,16 +4,16 @@
   "gallery": [{
     "title": "Showcase",
     "copy": "Your developer skills will be on display alongside some of the best talent in Nigeria.",
-    "image": "../images/gallery/suad-kamardeen-J-D50rg44aw-unsplash.jpg"
+    "image": "../images/gallery/one.png"
   },
   {
     "title": "Learn",
     "copy": "Access the latest developer resources from Open Source Maintainers and GitHub Employees.",
-    "image": "../images/gallery/nesa-by-makers-vII7qKAk-9A-unsplash.jpg"
+    "image": "../images/gallery/two.png"
   },
   {
     "title": "Impact",
     "copy": "Give back to the Nigerian community through collaborative projects.",
-    "image": "../images/gallery/temitayo-aina-tmz3Z1L1qaQ-unsplash.jpg"
+    "image": "../images/gallery/three.png"
   }]
 }
