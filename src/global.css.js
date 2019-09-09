@@ -1,5 +1,5 @@
-import { createGlobalStyle } from "styled-components";
-import { accent } from "constants/theme";
+import {createGlobalStyle} from "styled-components";
+import {accent} from "constants/theme";
 
 export default createGlobalStyle`
   html, body, div, span, applet, object, iframe,
@@ -18,7 +18,6 @@ export default createGlobalStyle`
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: 100%;
     font: inherit;
     vertical-align: baseline;
   }
@@ -27,6 +26,19 @@ export default createGlobalStyle`
   article, aside, details, figcaption, figure,
   footer, header, hgroup, menu, nav, section {
     display: block;
+  }
+
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+
+  h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    margin-top: 4px;
+    color: ${accent};
   }
 
   html {
@@ -56,7 +68,7 @@ export default createGlobalStyle`
     quotes: none;
   }
 
-  blockquote:before, blockquote:after,
+  blockquote:bsfore, blockquote:after,
   q:before, q:after {
     content: '';
     content: none;

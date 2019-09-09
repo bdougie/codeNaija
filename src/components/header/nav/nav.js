@@ -6,7 +6,10 @@ const Nav = () => (
   <Container>
     <ul>
       <li>
-        <Link to="/about">Apply</Link>
+        <Link to="/about">About</Link>
+      </li>
+      <li>
+        <Link to="/blacktocats">Blacktocats</Link>
       </li>
       <li>
         <a href="https://github.com/">GitHub</a>
