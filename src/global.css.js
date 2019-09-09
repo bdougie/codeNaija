@@ -1,5 +1,5 @@
-import { createGlobalStyle } from 'styled-components';
-import { accent } from 'constants/theme';
+import { createGlobalStyle } from "styled-components";
+import { accent } from "constants/theme";
 
 export default createGlobalStyle`
   html, body, div, span, applet, object, iframe,

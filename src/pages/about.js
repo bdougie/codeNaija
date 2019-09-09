@@ -1,9 +1,9 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { graphql } from 'gatsby';
-import Layout from 'components/layout';
-import Box from 'components/box';
-import Head from 'components/head';
+import React from "react";
+import PropTypes from "prop-types";
+import { graphql } from "gatsby";
+import Layout from "components/layout";
+import Box from "components/box";
+import Head from "components/head";
 
 const About = ({ data }) => (
   <Layout>
@@ -11,7 +11,7 @@ const About = ({ data }) => (
     <Box>
       <div
         dangerouslySetInnerHTML={{
-          __html: data.aboutJson.content.childMarkdownRemark.html,
+          __html: data.aboutJson.content.childMarkdownRemark.html
         }}
       />
     </Box>
@@ -19,7 +19,7 @@ const About = ({ data }) => (
 );
 
 About.propTypes = {
-  data: PropTypes.object.isRequired,
+  data: PropTypes.object.isRequired
 };
 
 export default About;
