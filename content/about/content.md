@@ -1,4 +1,4 @@
-# Interested in hacking with the best Nigerian devlopers?
+## Interested in hacking with the best Nigerian devlopers?
 
 CodeNaija is a Nigerian Hackathon hosted by GitHub's Employee Resource Group, the [Blacktocats](https://twitter.com/blacktocats). Our goal for the hackathon is to highlight the existing community of Nigerian developers by showcasing their amazing talent and work. 
 
