@@ -15,5 +15,20 @@
     "title": "Impact",
     "copy": "Give back to the Nigerian community through collaborative projects.",
     "image": "../images/gallery/three.png"
+  }],
+  "mooseheads": [{
+    "title": "Learn",
+    "copy": "Access the latest developer resources from Open Source Maintainers and GitHub Employees.",
+    "image": "../images/gallery/microsoft.png"
+  },
+  {
+    "title": "Impact",
+    "copy": "Give back to the Nigerian community through collaborative projects.",
+    "image": "../images/gallery/andela.png"
+  },
+  {
+    "title": "Impact",
+    "copy": "Give back to the Nigerian community through collaborative projects.",
+    "image": "../images/gallery/FLW.png"
   }]
 }
