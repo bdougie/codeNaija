@@ -6,6 +6,6 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: automerge
-      uses: pascalgn/automerge-action@33f73f0a562129c7e96123e98af20d4378f1fa3b
+      uses: pascalgn/automerge-action@342ccd6e8f79ab39cc4d2a32b9604925091d69d9
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
