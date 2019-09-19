@@ -1,8 +1,19 @@
 name: Auto approve and merge Dependabot
-on: pull_request
+on: 
+  pull_request:
+    branches:
+    - master
 
 jobs:
+  logs4netlify:
+    name: Logs for Netlify
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Deploy Logs
+      uses: bdougie/loglify@master
   auto-merge:
+    needs: logs4netlify
     runs-on: ubuntu-latest
     steps:
     - uses: hmarr/auto-approve-action@v2.0.0
