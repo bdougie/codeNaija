@@ -22,3 +22,4 @@ npm run build
 Copy the content of the `public` folder to your webhost or use a website like Netlify which automates that for you.
 
 
+<--! test -->
