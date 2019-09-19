@@ -6,9 +6,6 @@ on:
     - master
       
 jobs:
-  labelWhenApproved:on: pull_request
-name: automerge pull requests on updates
-jobs:
   automerge:
     runs-on: ubuntu-latest
     steps:
