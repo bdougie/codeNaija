@@ -3263,21 +3263,6 @@ cheerio@^1.0.0-rc.2, cheerio@^1.0.0-rc.3:
     lodash "^4.15.0"
     parse5 "^3.0.1"
 
-chokidar@3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.1.0.tgz#ff23d077682a90eadd209bfa76eb10ed6d359668"
-  integrity sha512-6vZfo+7W0EOlbSo0nhVKMz4yyssrwiPbBZ8wj1lq8/+l4ZhGZ2U4Md7PspvmijXp1a26D3B7AHEBmIB7aVtaOQ==
-  dependencies:
-    anymatch "^3.1.0"
-    braces "^3.0.2"
-    glob-parent "^5.0.0"
-    is-binary-path "^2.1.0"
-    is-glob "^4.0.1"
-    normalize-path "^3.0.0"
-    readdirp "^3.1.1"
-  optionalDependencies:
-    fsevents "^2.0.6"
-
 chokidar@3.1.1, chokidar@^3.0.2:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.1.1.tgz#27e953f3950336efcc455fd03e240c7299062003"
@@ -6223,10 +6208,10 @@ gatsby-transformer-remark@^2.6.24:
     unist-util-select "^1.5.0"
     unist-util-visit "^1.4.1"
 
-gatsby-transformer-sharp@^2.2.16:
-  version "2.2.16"
-  resolved "https://registry.yarnpkg.com/gatsby-transformer-sharp/-/gatsby-transformer-sharp-2.2.16.tgz#909a62f4369318bfa40779f8dce1126ba4564757"
-  integrity sha512-9aWhm7LAra5NFgA/QY9Z3gYU6g9uNnrWckR9om/s3ATcxw+VjXz+CUGEOPjyiJ93NF4rAFMfwlaa+BZWOFb4hw==
+gatsby-transformer-sharp@^2.2.17:
+  version "2.2.17"
+  resolved "https://registry.yarnpkg.com/gatsby-transformer-sharp/-/gatsby-transformer-sharp-2.2.17.tgz#53270268fbb26d29b2726f7fd18ea4c70f2f4eba"
+  integrity sha512-VoPopwU0xbh5iD/UbCBOjz7biv3j6ihfy129uStAN25a8fY34GBUt+j0pN6+8glkG+dgf/aOuBPyXyxHwobmIw==
   dependencies:
     "@babel/runtime" "^7.6.0"
     bluebird "^3.5.5"
