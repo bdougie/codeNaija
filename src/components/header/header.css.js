@@ -3,7 +3,9 @@ import styled from 'styled-components';
 export const Container = styled.header`
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  margin: auto;
+  max-width: 80%;
+  align-items: baseline;
   padding: 4rem;
 
   a {
