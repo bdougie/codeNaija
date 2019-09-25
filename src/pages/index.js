@@ -12,11 +12,10 @@ import styled from "styled-components";
 // moves this to a Component
 export const Button = styled.button`
   -webkit-appearance: none;
-  background-color: #fff;
-  border-radius: 5px;
+  background-color: #F5A623;
   border: none;
-  color: #757575;
-  border: 1px solid #ddd;
+  color: #000;
+  border: solid #F5A623;
   cursor: pointer;
   font-family: inherit;
   font-size: 1.3rem;
@@ -41,46 +40,69 @@ export const Button = styled.button`
   }
 `;
 
-const Index = ({data}) => (
+const Index = ({data}) => {
+console.log(data.homeJson.laptop.childImageSharp.fluid)
+return (
   <Layout>
     <Box>
-      <Title as="h2" size="large">
+      <p>26th & 27th October 2019</p>
+      <Title as="h1" size="large">
         {data.homeJson.content.childMarkdownRemark.rawMarkdownBody}
       </Title>
+      <p>... building technology for social good</p>
+      <a href="https://forms.gle/D3y3VVxTiugGPekk9">
+        <Button>Register Now</Button>
+      </a>
     </Box>
-    <Gallery items={data.homeJson.gallery} />
     <Box>
       <Mooseheads items={data.homeJson.mooseheads} />
     </Box>
     <Box>
-      <Title as="p" size="medium">
-        <p>Join us October 5th, 2019</p>
-      </Title>
+      <h2>About</h2>
       <p>
-        CodeNaija is a Nigerian hackathon hosted by the <a href="https://andela.com/">Andela</a> and the{" "}
-        <a href="https://twitter.com/blacktocats">Blacktocats</a>, GitHub's Black Employee Resource Group. Our goal for
-        the hackathon is to highlight the existing community of Nigerian developers by showcasing their amazing talent
-        and work.
+        CodeNaija Hackathon 2019 is a Nigerian hackathon hosted by Andela and the Blacktocats, GitHub's Black Employee
+        Resource Group. The goal of the hackathon is to highlight the existing community of Nigerian developers by
+        showcasing their amazing talent and work. Participating engineers will be split into groups of 10 and will
+        compete for the ultimate prize.
       </p>
       <p>
-        Each hackathon team will focus on improving reach to the greater Nigerian developer community while leveraging
-        open source technologies to do so.
+        There will also be plenty of time to interact with professional mentors and engineers, meet recruiters, and
+        listen to great tech talks and tutorials from sponsors.
       </p>
-      <a href="https://forms.gle/D3y3VVxTiugGPekk9">
-        <Button>Apply to hack at CodeNaija</Button>
-      </a>
     </Box>
-    <div style={{height: "50vh"}} />
     <Box>
-      <Title as="p" size="smal">
-        © 2019 GitHub Blacktocats
+      <p>
+        Join us at Andela EPIC Towers for +30 hours hours of hacking from Saturday 26th October from 9:30 AM - 9:00 PM
+        and Sunday 27th October from 11:00 AM - 8:00 PM.
+      </p>
+    </Box>
+    <Box>
+      <Gallery items={data.homeJson.gallery} />
+    </Box>
+    <Box>
+      <img src={data.homeJson.laptop.childImageSharp.fluid.src} />
+      <div>
+        <p>26th & 27th October 2019</p>
+        <Title as="h1">
+          {data.homeJson.content.childMarkdownRemark.rawMarkdownBody}
+        </Title>
+        <p>... building technology for social good</p>
+        <a href="https://forms.gle/D3y3VVxTiugGPekk9">
+          <Button>Register Now</Button>
+        </a>
+      </div>
+    </Box>
+    <Box>
+      <Title as="p">
+        © 2019 GitHub
       </Title>
     </Box>
   </Layout>
 );
+}
 
 Index.propTypes = {
-  data: PropTypes.object.isRequired,
+  data: PropTypes.object,
 };
 
 export default Index;
@@ -89,6 +111,13 @@ export const query = graphql`
   query HomepageQuery {
     homeJson {
       title
+      laptop {
+        childImageSharp {
+          fluid(maxHeight: 90, quality: 90) {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
       content {
         childMarkdownRemark {
           html

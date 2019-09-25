@@ -1,6 +1,7 @@
 {
   "title": "Home",
   "content": "intro.md",
+  "laptop": "../images/gallery/laptop.png",
   "gallery": [{
     "title": "Showcase",
     "copy": "Your developer skills will be on display alongside some of the best talent in Nigeria.",
@@ -20,6 +21,11 @@
     "title": "Learn",
     "copy": "Access the latest developer resources from Open Source Maintainers and GitHub Employees.",
     "image": "../images/gallery/microsoft.png"
+  },
+  {
+    "title": "Showcase",
+    "copy": "Your developer skills will be on display alongside some of the best talent in Nigeria.",
+    "image": "../images/gallery/GitHub_Logo.png"
   },
   {
     "title": "Impact",
