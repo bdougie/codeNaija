@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 name: Auto approve
 on: pull_request
+=======
+name: Auto approve and merge 
+on: 
+  pull_request:
+    branches:
+    - master
+>>>>>>> a1e0d5a... copy and images
 
 jobs:
   build:
