@@ -5,44 +5,12 @@ import Box from "components/box";
 import Title from "components/title";
 import Gallery from "components/gallery";
 import Mooseheads from "components/mooseheads";
+import {Button} from "components/button/button.css";
 import IOExample from "components/io-example";
 import {graphql} from "gatsby";
 import styled from "styled-components";
 
-// moves this to a Component
-export const Button = styled.button`
-  -webkit-appearance: none;
-  background-color: #F5A623;
-  border: none;
-  color: #000;
-  border: solid #F5A623;
-  cursor: pointer;
-  font-family: inherit;
-  font-size: 1.3rem;
-  font-weight: 500;
-  margin: 4rem 0 2rem;
-  padding: 1rem 2rem;
-  text-transform: uppercase;
-  transition: 0.2s background-color ease;
-
-  &:active,
-  &:focus {
-    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.05);
-    outline: none;
-  }
-
-  &:hover {
-    background-color: #f9f9f9;
-  }
-
-  & + & {
-    margin-left: 1rem;
-  }
-`;
-
-const Index = ({data}) => {
-console.log(data.homeJson.laptop.childImageSharp.fluid)
-return (
+const Index = ({data}) => (
   <Layout>
     <Box>
       <p>26th & 27th October 2019</p>
@@ -83,9 +51,7 @@ return (
       <img src={data.homeJson.laptop.childImageSharp.fluid.src} />
       <div>
         <p>26th & 27th October 2019</p>
-        <Title as="h1">
-          {data.homeJson.content.childMarkdownRemark.rawMarkdownBody}
-        </Title>
+        <Title as="h1">{data.homeJson.content.childMarkdownRemark.rawMarkdownBody}</Title>
         <p>... building technology for social good</p>
         <a href="https://forms.gle/D3y3VVxTiugGPekk9">
           <Button>Register Now</Button>
@@ -93,13 +59,10 @@ return (
       </div>
     </Box>
     <Box>
-      <Title as="p">
-        © 2019 GitHub
-      </Title>
+      <Title as="p">© 2019 GitHub</Title>
     </Box>
   </Layout>
 );
-}
 
 Index.propTypes = {
   data: PropTypes.object,
