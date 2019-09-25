@@ -1,1 +1,2 @@
-CodeNaija is a hackathon presented by the Andela and the GitHub Blacktocats.
+CodeNaija
+Hackathon 2019

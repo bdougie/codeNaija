@@ -1,0 +1,102 @@
+.FaqBanner {
+  align-items: center;
+  color: #444;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  width: 100%;
+}
+
+.FaqBanner .FaqWrapper {
+  max-width: 1200px;
+  position: relative;
+  width: 100%;
+}
+
+.FaqBanner .FaqWrapper h1 {
+  margin-top: 2.5rem;
+  margin-bottom: 0rem;
+  text-align: center;
+}
+
+.FaqBanner .FaqWrapper h2 {
+  font-weight: 400;
+  margin-bottom: 0rem;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.FaqBanner .FaqWrapper .AccordionContainer {
+  margin: 2.5rem 1rem;
+}
+
+.FaqBanner .FaqWrapper .AccordionContainer .FaqItem {
+  margin: 0.5rem auto;
+  max-width: 900px;
+}
+
+.FaqBanner .FaqWrapper .AccordionContainer .FaqItem .AccordionItem {
+  align-items: center;
+  background-color: #FFFFFF;
+  border: none;
+  color: #444;
+  cursor: pointer;
+  display: flex;
+  font-family: unset;
+  font-size: unset;
+  justify-content: space-between;
+  outline: none;
+  padding: 1rem 2rem;
+  text-align: left;
+  transition: 0.4s;
+  width: 100%;
+}
+
+.FaqBanner .FaqWrapper .AccordionContainer .FaqItem .AccordionItem .Question {
+  font-weight: 700;
+  margin: 0;
+}
+
+.FaqBanner .FaqWrapper .AccordionContainer .FaqItem .AccordionItem .Arrow {
+  margin-left: 0.75em;
+  width: 1.25rem;
+}
+
+.FaqBanner .FaqWrapper .AccordionContainer .FaqItem .AccordionItem .Arrow.active {
+  transform: rotate(180deg);
+}
+
+.FaqBanner .FaqWrapper .AccordionContainer .FaqItem .Answer {
+  margin: 0;
+  opacity: 0.9;
+}
+
+.FaqBanner .FaqWrapper .AccordionContainer .FaqItem .Panel {
+  background-color: #FFFFFF;
+  max-height: 0rem;
+  overflow: hidden;
+  padding: 0 2rem;
+}
+
+.FaqBanner .FaqWrapper .AccordionContainer .FaqItem .Panel.active {
+  max-height: 10rem;
+  padding: 0rem 2rem 1rem 2rem;
+}
+
+@media (max-width: 599px) {
+  .FaqBanner {
+    font-size: 90%;
+  }
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+h2 {
+  max-width: 80%;
+  margin: auto;
+  font-size: 1.5rem;
+}
