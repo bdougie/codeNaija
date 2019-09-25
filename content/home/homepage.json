@@ -2,6 +2,8 @@
   "title": "Home",
   "content": "intro.md",
   "laptop": "../images/gallery/laptop.png",
+  "main": "../images/gallery/main.png",
+  "hero": "../images/gallery/hero.png",
   "gallery": [{
     "title": "Showcase",
     "copy": "Your developer skills will be on display alongside some of the best talent in Nigeria.",
@@ -20,7 +22,7 @@
   "mooseheads": [{
     "title": "Learn",
     "copy": "Access the latest developer resources from Open Source Maintainers and GitHub Employees.",
-    "image": "../images/gallery/microsoft.png"
+    "image": "../images/gallery/andela.png"
   },
   {
     "title": "Showcase",
@@ -30,11 +32,11 @@
   {
     "title": "Impact",
     "copy": "Give back to the Nigerian community through collaborative projects.",
-    "image": "../images/gallery/andela.png"
+    "image": "../images/gallery/FLW.png"
   },
   {
     "title": "Impact",
     "copy": "Give back to the Nigerian community through collaborative projects.",
-    "image": "../images/gallery/FLW.png"
+    "image": "../images/gallery/microsoft.png"
   }]
 }

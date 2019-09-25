@@ -7,7 +7,7 @@ const Nav = () => (
   <Container>
     <ul>
       <li>
-        <Link to="/about">About</Link>
+        <a href="https://andela.com/">Andela</a>
       </li>
       <li>
         <a href="https://github.com/">GitHub</a>

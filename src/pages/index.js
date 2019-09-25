@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import Layout from "components/layout";
 import Box from "components/box";
+import Hero from "components/Hero";
 import Title from "components/title";
 import Gallery from "components/gallery";
 import Mooseheads from "components/mooseheads";
@@ -12,16 +13,21 @@ import styled from "styled-components";
 
 const Index = ({data}) => (
   <Layout>
-    <Box>
-      <p>26th & 27th October 2019</p>
-      <Title as="h1" size="large">
-        {data.homeJson.content.childMarkdownRemark.rawMarkdownBody}
-      </Title>
-      <p>... building technology for social good</p>
-      <a href="https://forms.gle/D3y3VVxTiugGPekk9">
-        <Button>Register Now</Button>
-      </a>
-    </Box>
+    <Hero>
+      <div>
+        <small style={{fontSize: 12, textTransform: "uppercase"}}>26th & 27th October 2019</small>
+        <Title as="h1" size="large">
+          CodeNaija <em style={{color: "#006EC6"}}>Hackathon 2019</em>
+        </Title>
+        <p style={{fontSize: 12}}>... building technology for social good</p>
+        <a href="https://forms.gle/D3y3VVxTiugGPekk9">
+          <Button>Register Now</Button>
+        </a>
+      </div>
+      <div>
+        <img src={data.homeJson.main.childImageSharp.fluid.src} />
+      </div>
+    </Hero>
     <Box>
       <Mooseheads items={data.homeJson.mooseheads} />
     </Box>
@@ -81,6 +87,20 @@ export const query = graphql`
           }
         }
       }
+      main {
+        childImageSharp {
+          fluid(maxHeight: 250, quality: 90) {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+      hero {
+        childImageSharp {
+          fluid(maxHeight: 500, quality: 90) {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
       content {
         childMarkdownRemark {
           html
@@ -103,7 +123,7 @@ export const query = graphql`
         copy
         image {
           childImageSharp {
-            fluid(maxHeight: 500, quality: 90) {
+            fluid(maxHeight: 100, quality: 90) {
               ...GatsbyImageSharpFluid_withWebp
             }
           }
