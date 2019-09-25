@@ -19,6 +19,7 @@
     ]
   },
   "dependencies": {
+    "@bit/limio.landing.faq-banner": "0.0.6",
     "@reach/dialog": "^0.2.0",
     "@reach/router": "^1.2.1",
     "@reach/visually-hidden": "^0.1.1",

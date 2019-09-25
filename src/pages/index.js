@@ -6,6 +6,7 @@ import PaddedBox from "components/paddedBox";
 import Hero from "components/Hero";
 import LastActionHero from "components/lastActionHero";
 import About from "components/About";
+import FAQ from "components/FAQ";
 import Title from "components/title";
 import Gallery from "components/gallery";
 import Mooseheads from "components/mooseheads";
@@ -64,6 +65,7 @@ const Index = ({data}) => (
     <Box>
       <Gallery items={data.homeJson.gallery} />
     </Box>
+    <FAQ items={data.homeJson.faqItems}/>
     <LastActionHero>
       <div>
         <img src={data.homeJson.laptop.childImageSharp.fluid.src} />
@@ -136,8 +138,6 @@ export const query = graphql`
         }
       }
       supported {
-        title
-        copy
         image {
           childImageSharp {
             fluid(maxHeight: 500, quality: 90) {
@@ -147,8 +147,6 @@ export const query = graphql`
         }
       }
       powered {
-        title
-        copy
         image {
           childImageSharp {
             fluid(maxHeight: 500, quality: 90) {
@@ -156,6 +154,10 @@ export const query = graphql`
             }
           }
         }
+      }
+      faqItems {
+        question
+        answer__limio_richtext
       }
     }
   }

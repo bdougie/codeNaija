@@ -20,23 +20,29 @@
     "image": "../images/gallery/three.png"
   }],
   "powered": [{
-    "title": "Learn",
-    "copy": "Access the latest developer resources from Open Source Maintainers and GitHub Employees.",
     "image": "../images/gallery/andela.png"
   },
   {
-    "title": "Showcase",
-    "copy": "Your developer skills will be on display alongside some of the best talent in Nigeria.",
     "image": "../images/gallery/GitHub_Logo.png"
   }],
   "supported": [{
-    "title": "Impact",
-    "copy": "Give back to the Nigerian community through collaborative projects.",
     "image": "../images/gallery/FLW.png"
   },
   {
-    "title": "Impact",
-    "copy": "Give back to the Nigerian community through collaborative projects.",
     "image": "../images/gallery/microsoft.png"
-  }]
+  }],
+  "faqItems": [
+      {
+        "question": "Where is the venue?",
+        "answer__limio_richtext": "Go to our help centre"
+      },
+      {
+        "question": "What are the prizes?",
+        "answer__limio_richtext": "Yes, of course!"
+      },
+      {
+        "question": "Will there be travel reimbursement?",
+        "answer__limio_richtext": "No"
+      }
+    ]
 }
