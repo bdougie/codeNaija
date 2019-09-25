@@ -5,13 +5,13 @@ import Box from "components/box";
 import PaddedBox from "components/paddedBox";
 import Hero from "components/Hero";
 import LastActionHero from "components/lastActionHero";
-import About from "components/About";
+import Description from "components/Description";
 import FAQ from "components/FAQ";
 import Title from "components/title";
 import Gallery from "components/gallery";
 import Mooseheads from "components/mooseheads";
 import {Button} from "components/button/button.css";
-import {Paragraph as AP} from "components/about/about.css";
+import {Paragraph as AP} from "components/description/description.css";
 import IOExample from "components/io-example";
 import {graphql} from "gatsby";
 import styled from "styled-components";
@@ -41,7 +41,7 @@ const Index = ({data}) => (
     </Box>
     <Box>
       <h2 style={{textAlign: "center"}}>About</h2>
-      <About>
+      <Description>
         <AP>
           CodeNaija Hackathon 2019 is a Nigerian hackathon hosted by Andela and the Blacktocats, GitHub's Black Employee
           Resource Group. The goal of the hackathon is to highlight the existing community of Nigerian developers by
@@ -54,7 +54,7 @@ const Index = ({data}) => (
           There will also be plenty of time to interact with professional mentors and engineers, meet recruiters, and
           listen to great tech talks and tutorials from sponsors.
         </AP>
-      </About>
+      </Description>
     </Box>
     <PaddedBox>
       <p>
