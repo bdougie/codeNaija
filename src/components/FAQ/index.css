@@ -77,6 +77,8 @@
   max-height: 0rem;
   overflow: hidden;
   padding: 0 2rem;
+  text-align: left;
+  line-height: 1.5;
 }
 
 .FaqBanner .FaqWrapper .AccordionContainer .FaqItem .Panel.active {
@@ -93,10 +95,11 @@
 h1 {
   font-weight: 600;
   font-size: 2.5rem;
+  margin-bottom: 1.2rem !important;
 }
 
 h2 {
-  max-width: 80%;
   margin: auto;
-  font-size: 1.5rem;
+  font-size: 1.5rem !important;
+  text-align: center;
 }
