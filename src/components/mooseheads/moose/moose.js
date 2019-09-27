@@ -1,10 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Img from 'gatsby-image';
 
 const Moose = ({ title, copy, image }) => (
   <figure>
-    <Img fluid={image ? image.childImageSharp.fluid : {}} alt={title} />
+    <img style={{maxHeight: 40}} src={image.childImageSharp.fluid.src} alt={title} />
   </figure>
 );
 
