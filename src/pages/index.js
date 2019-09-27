@@ -106,6 +106,13 @@ export const query = graphql`
           }
         }
       }
+      logo {
+        childImageSharp {
+          fluid(maxHeight: 200, quality: 90) {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
       main {
         childImageSharp {
           fluid(maxHeight: 250, quality: 90) {

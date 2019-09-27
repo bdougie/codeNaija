@@ -10,7 +10,7 @@ const Layout = ({data, children}) => (
   <Container>
     <GlobalStyle />
     <Head />
-    <Header title={data.site.siteMetadata.siteTitle} />
+    <Header image={data.homeJson.logo.childImageSharp.fluid.src} />
     {children}
   </Container>
 );
@@ -23,10 +23,14 @@ Layout.propTypes = {
 const LayoutWithQuery = props => (
   <StaticQuery
     query={graphql`
-      query LayoutQuery {
-        site {
-          siteMetadata {
-            siteTitle
+      query PageQuery {
+        homeJson {
+          logo {
+            childImageSharp {
+              fluid(maxHeight: 200, quality: 90) {
+                ...GatsbyImageSharpFluid_withWebp
+              }
+            }
           }
         }
       }
