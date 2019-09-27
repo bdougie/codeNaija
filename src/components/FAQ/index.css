@@ -89,6 +89,7 @@
 @media (max-width: 599px) {
   .FaqBanner {
     font-size: 90%;
+    padding: 2px;
   }
 }
 
@@ -103,3 +104,4 @@ h2 {
   font-size: 1.5rem !important;
   text-align: center;
 }
+

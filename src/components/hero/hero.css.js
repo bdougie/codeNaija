@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import MEDIA from 'helpers/mediaTemplates';
 
 export const Container = styled.div`
   align-items: center;
@@ -7,5 +8,10 @@ export const Container = styled.div`
   padding: 2rem 4rem;
   max-width: 80%;
   margin: auto;
+
+  ${MEDIA.TABLET`
+    display: flex;
+    flex-direction: column;
+  `};
 `;
 
