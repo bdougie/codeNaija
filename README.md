@@ -19,6 +19,15 @@ You can add other features by having a look at the official [plugins page](https
 npm run build
 ```
 
+## Infrastructure of this site
+
+This site is built with [GatsbyJS](https://www.gatsbyjs.org/) using the [gatsby-universal](https://github.com/fabe/gatsby-universal) template. This decision was made to get something oof the ground quickly
+
+### CSS
+
+The CSS is power through a combination [styled-components](https://www.styled-components.com/), the [global.css](https://github.com/bdougie/codeNaija/blob/master/src/global.css.js) file, and [inline JSX](https://github.com/bdougie/codeNaija/blob/7c682f6e5173751301ee0dfb967035a0a4bdd4b3/src/pages/index.js#L74) (for global overrides).
+
+
 Copy the content of the `public` folder to your webhost or use a website like Netlify which automates that for you.
 
 
