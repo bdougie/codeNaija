@@ -1,12 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Img from 'gatsby-image';
 
-const Moose = ({ title, copy, image }) => (
+const Moose = ({ title, copy, image }) => {
+console.log(image)
+return(
   <figure>
-    <Img fluid={image ? image.childImageSharp.fluid : {}} alt={title} />
+    <img style={{maxHeight: 40}} src={image.childImageSharp.fluid.src} alt={title} />
   </figure>
-);
+)};
 
 Moose.propTypes = {
   title: PropTypes.string,

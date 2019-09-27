@@ -140,7 +140,7 @@ export const query = graphql`
       supported {
         image {
           childImageSharp {
-            fluid(maxHeight: 500, quality: 90) {
+            fluid(maxHeight: 100, quality: 90) {
               ...GatsbyImageSharpFluid_withWebp
             }
           }
@@ -149,7 +149,7 @@ export const query = graphql`
       powered {
         image {
           childImageSharp {
-            fluid(maxHeight: 500, quality: 90) {
+            fluid(maxHeight: 100, quality: 90) {
               ...GatsbyImageSharpFluid_withWebp
             }
           }
