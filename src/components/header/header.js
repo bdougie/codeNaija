@@ -21,9 +21,7 @@ const AnimatedContainer = posed.div({
   },
 });
 
-const Header = ({ image }) => {
-console.log(image)
-return (
+const Header = ({ image }) => (
   <AnimatedContainer>
     <Container>
       <Link to="/">
@@ -33,7 +31,7 @@ return (
       <Nav />
     </Container>
   </AnimatedContainer>
-)};
+);
 
 Header.propTypes = {
   title: PropTypes.string.isRequired,
