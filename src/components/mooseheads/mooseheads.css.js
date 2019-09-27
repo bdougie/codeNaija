@@ -9,6 +9,7 @@ export const Container = styled.div`
   padding: 0 4rem;
   margin: 2rem 0;
   align-items: center;
+  grid-gap: 0;
 
 
   ${MEDIA.TABLET`
