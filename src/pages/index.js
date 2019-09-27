@@ -71,8 +71,8 @@ const Index = ({data}) => (
         <img src={data.homeJson.laptop.childImageSharp.fluid.src} />
       </div>
       <div>
-        <small style={{fontSize: 12, textTransform: "uppercase"}}>26th & 27th October 2019</small>
-        <h2 style={{fontSize: 35}}>
+        <small>26th & 27th October 2019</small>
+        <h2>
           CodeNaija <em style={{color: "#006EC6"}}>Hackathon</em>
         </h2>
         <p style={{fontSize: 12}}>... building technology for social good</p>
