@@ -12,6 +12,9 @@ export const Container = styled.div`
   ${MEDIA.TABLET`
     display: flex;
     flex-direction: column;
+    img {
+      margin: 16px 0;
+    }
   `};
 `;
 
