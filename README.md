@@ -6,7 +6,8 @@ Check your development environment! You'll need [Node.js](https://nodejs.org/en/
 - [Check your development environment](https://www.gatsbyjs.org/tutorial/part-zero/)
 
 ```
-npm run serve
+npm install
+gatsby develop
 ```
 
 ### Adding new features/plugins
@@ -16,7 +17,7 @@ You can add other features by having a look at the official [plugins page](https
 ### Building your site
 
 ```
-npm run build
+gatby build
 ```
 
 ## Infrastructure of this site
