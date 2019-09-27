@@ -2,6 +2,7 @@
   "title": "Home",
   "content": "intro.md",
   "laptop": "../images/gallery/laptop.png",
+  "logo": "../images/gallery/logo.png",
   "main": "../images/gallery/main.png",
   "hero": "../images/gallery/hero.png",
   "gallery": [{

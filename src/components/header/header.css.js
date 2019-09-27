@@ -17,4 +17,8 @@ export const Container = styled.header`
       color: inherit;
     }
   }
+
+  img {
+    max-height: 2rem;
+  }
 `;
