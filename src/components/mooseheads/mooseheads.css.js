@@ -14,5 +14,10 @@ export const Container = styled.div`
 
   ${MEDIA.TABLET`
     display: block;
+
+    figure {
+      margin-bottom: 35px;
+      text-align: center;
+    }
   `};
 `;

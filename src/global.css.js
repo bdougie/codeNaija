@@ -1,5 +1,6 @@
 import {createGlobalStyle} from "styled-components";
 import {accent} from "constants/theme";
+import MEDIA from 'helpers/mediaTemplates';
 
 export default createGlobalStyle`
   html, body, div, span, applet, object, iframe,
@@ -103,4 +104,9 @@ export default createGlobalStyle`
   p {
     margin-bottom: 2rem;
   }
+
+  ${MEDIA.TABLET`
+    display: block;
+  `};
+
 `;
