@@ -21,7 +21,7 @@ import styled from "styled-components";
 
 const Index = ({data}) => (
   <Layout>
-    <Hero>
+    <Hero image={data.homeJson.hero.childImageSharp.fluid.src}>
       <div>
         <small style={{fontSize: 12, textTransform: "uppercase"}}>26th & 27th October 2019</small>
         <Title as="h1" size="large">

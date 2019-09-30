@@ -6,12 +6,16 @@ export const Container = styled.div`
   display: flex;
   justify-content: space-around;
   padding: 2rem 4rem;
-  max-width: 80%;
+  max-width: 94%;
+  width: 100%;
   margin: auto;
+  background-image: ${props => (`url(${props.image})`)};
+  background-size: 1185px;
 
   ${MEDIA.TABLET`
     display: flex;
     flex-direction: column;
+    background-repeat: no-repeat;
     img {
       margin: 16px 0;
     }
