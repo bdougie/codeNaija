@@ -5,95 +5,118 @@
   "logo": "../images/gallery/logo.png",
   "main": "../images/gallery/main.png",
   "hero": "../images/gallery/hero.png",
-  "gallery": [{
-    "title": "Showcase",
-    "copy": "Your developer skills will be on display alongside some of the best talent in Nigeria.",
-    "image": "../images/gallery/one.png"
-  },
-  {
-    "title": "Learn",
-    "copy": "Access the latest developer resources from Open Source Maintainers and GitHub Employees.",
-    "image": "../images/gallery/two.png"
-  },
-  {
-    "title": "Impact",
-    "copy": "Give back to the Nigerian community through collaborative projects.",
-    "image": "../images/gallery/three.png"
-  }],
-  "powered": [{
-    "image": "../images/gallery/andela.png"
-  },
-  {
-    "image": "../images/gallery/GitHub_Logo.png"
-  }],
-  "supported": [{
-    "image": "../images/gallery/FLW.png"
-  },
-  {
-    "image": "../images/gallery/microsoft.jpg"
-  }],
+  "gallery": [
+    {
+      "title": "Showcase",
+      "copy": "Your developer skills will be on display alongside some of the best talent in Nigeria.",
+      "image": "../images/gallery/one.png"
+    },
+    {
+      "title": "Learn",
+      "copy": "Access the latest developer resources from Open Source Maintainers and GitHub Employees.",
+      "image": "../images/gallery/two.png"
+    },
+    {
+      "title": "Impact",
+      "copy": "Give back to the Nigerian community through collaborative projects.",
+      "image": "../images/gallery/three.png"
+    }
+  ],
+  "powered": [
+    {
+      "image": "../images/gallery/andela.png"
+    },
+    {
+      "image": "../images/gallery/GitHub_Logo.png"
+    }
+  ],
+  "supported": [
+    {
+      "image": "../images/gallery/FLW.png"
+    },
+    {
+      "image": "../images/gallery/microsoft.jpg"
+    }
+  ],
   "faqItems": [
-      {
-        "question": "What is CodeNaija",
-        "answer__limio_richtext": "CodeNaija is a Nigerian hackathon hosted by Andela and the Blacktocats, GitHub's Black Employee Resource Group. The goal of the hackathon is to highlight the existing community of Nigerian developers by showcasing their amazing talent and work. A team of passionate sponsors and mentors is brought in to help software engineers achieve their goals. Come join almost100 mid level and senior software engineer professionals for 30+ hours of learning and technological passion."
-      },
-      {
-        "question": "Who can participate/attend?",
-        "answer__limio_richtext": "CodeNaija is open to mid and senior level software engineering professionals who are passionate about innovative technology and solutions that can help solve some of Africa’s biggest challenges."
-      },
-      {
-        "question": "How much will it cost me to participate/register?",
-        "answer__limio_richtext": "CodeNaija is absolutely free! There is no charge for attending or participating in this event. Catered meals and snacks will also be provided throughout the event."
-      },
-      {
-        "question": "Who can participate/attend?",
-        "answer__limio_richtext": "CodeNaija is open to mid and senior level software engineering professionals who are passionate about innovative technology and solutions that can help solve some of Africa’s biggest challenges."
-      },
-      {
-        "question": "Where is the venue of the hackathon?",
-        "answer__limio_richtext": "CodeNaija will be held at Andela EPIC tower office in Ilupeju, Lagos State. We will also be providing transportation from specific routes in Lagos.  If you need help getting from your location to our, contact us for support."
-      },
-      {
-        "question": "Will arrangements be made for me to sleep?",
-        "answer__limio_richtext": "No! Participants will be required to leave the venue at 9:00 PM and reconvene at 9:00 AM on Sunday, 27th October, 2019."
-      },
-      {
-        "question": "Is this happening 48hrs at a stretch or do we have to go home and come back the next day?",
-        "answer__limio_richtext": "No, this wouldn’t happen at a stretch. Participants will be required to go to their various homes and reconvene."
-      },
-      {
-        "question": "Will there be travel reimbursements?",
-        "answer__limio_richtext": "Unfortunately, we will not be able to offer any travel reimbursements for CodeNaija"
-      },
-      {
-        "question": "I don’t have a team or an idea?",
-        "answer__limio_richtext": "Just like having previous knowledge, having a team or an idea is not a requirement either! We will have an opportunity for team building and allow you to meet new people to work with. There will be a number of presentations to help inspire you with an idea, we know you’ll build something great!"
-      },
-      {
-        "question": " How many people can be on my team?",
-        "answer__limio_richtext": "Teams can range from five to seven people. You can work with your best buddies, or with someone you just met during the opening ceremony!"
-      },
-      {
-        "question": "What should I bring?",
-        "answer__limio_richtext": "The most important items to bring are your laptop, charger, and valid means of identification. We’ll try to get you anything else!"
-      },
-      {
-        "question": "Can I start my own hack before the event?",
-        "answer__limio_richtext": "Participants are not allowed to begin progress on their hack before CodeNaija. However, the use of third-party APIs and libraries are allowed and encouraged. We also encourage you to be familiar with the tools you plan to use at the event, such as a specific programming language, as long as it is not a part of your hack"
-      },
-      {
-        "question": "How does judging work?",
-        "answer__limio_richtext": "A panel of to-be-determined judges will assess your hacks creativity, difficulty, design, and potential. Ten hacks will be selected for a demo in front of the entire CodeNaija audience for a final round of judging. Stay tuned to see who our judges are!"
-      },
-      {
-        "question": "Will mentors be assigned to each team? ",
-        "answer__limio_richtext": "Mentors will be assigned to each team to serve as guides on your projects."
-      },
-      {
-        "question": "What are the prizes to be won?",
-        "answer__limio_richtext": "There will be multiple prizes, but to highlight our grand prize: Access to pitch to the Venture Capital firm M12."
-      }
-    ]
+    {
+      "question": "What is CodeNaija",
+      "answer__limio_richtext": "CodeNaija is a Nigerian hackathon hosted by Andela and the Blacktocats, GitHub's Black Employee Resource Group. The goal of the hackathon is to highlight the existing community of Nigerian developers by showcasing their amazing talent and work. A team of passionate sponsors and mentors is brought in to help software engineers achieve their goals. Come join almost100 mid level and senior software engineer professionals for 30+ hours of learning and technological passion."
+    },
+    {
+      "question": "Who can participate/attend?",
+      "answer__limio_richtext": "CodeNaija is open to mid and senior level software engineering professionals who are passionate about innovative technology and solutions that can help solve some of Africa’s biggest challenges."
+    },
+    {
+      "question": "How much will it cost me to participate/register?",
+      "answer__limio_richtext": "CodeNaija is absolutely free! There is no charge for attending or participating in this event. Catered meals and snacks will also be provided throughout the event."
+    },
+    {
+      "question": "Who can participate/attend?",
+      "answer__limio_richtext": "CodeNaija is open to mid and senior level software engineering professionals who are passionate about innovative technology and solutions that can help solve some of Africa’s biggest challenges."
+    },
+    {
+      "question": "Where is the venue of the hackathon?",
+      "answer__limio_richtext": "CodeNaija will be held at Andela EPIC tower office in Ilupeju, Lagos State. We will also be providing transportation from specific routes in Lagos.  If you need help getting from your location to our, contact us for support."
+    },
+    {
+      "question": "Will arrangements be made for me to sleep?",
+      "answer__limio_richtext": "No! Participants will be required to leave the venue at 9:00 PM and reconvene at 9:00 AM on Sunday, 27th October, 2019."
+    },
+    {
+      "question": "Is this happening 48hrs at a stretch or do we have to go home and come back the next day?",
+      "answer__limio_richtext": "No, this wouldn’t happen at a stretch. Participants will be required to go to their various homes and reconvene."
+    },
+    {
+      "question": "Will there be travel reimbursements?",
+      "answer__limio_richtext": "Unfortunately, we will not be able to offer any travel reimbursements for CodeNaija"
+    },
+    {
+      "question": "I don’t have a team or an idea?",
+      "answer__limio_richtext": "Just like having previous knowledge, having a team or an idea is not a requirement either! We will have an opportunity for team building and allow you to meet new people to work with. There will be a number of presentations to help inspire you with an idea, we know you’ll build something great!"
+    },
+    {
+      "question": " How many people can be on my team?",
+      "answer__limio_richtext": "Teams can range from five to seven people. You can work with your best buddies, or with someone you just met during the opening ceremony!"
+    },
+    {
+      "question": "What should I bring?",
+      "answer__limio_richtext": "The most important items to bring are your laptop, charger, and valid means of identification. We’ll try to get you anything else!"
+    },
+    {
+      "question": "Can I start my own hack before the event?",
+      "answer__limio_richtext": "Participants are not allowed to begin progress on their hack before CodeNaija. However, the use of third-party APIs and libraries are allowed and encouraged. We also encourage you to be familiar with the tools you plan to use at the event, such as a specific programming language, as long as it is not a part of your hack"
+    },
+    {
+      "question": "How does judging work?",
+      "answer__limio_richtext": "A panel of to-be-determined judges will assess your hacks creativity, difficulty, design, and potential. Ten hacks will be selected for a demo in front of the entire CodeNaija audience for a final round of judging. Stay tuned to see who our judges are!"
+    },
+    {
+      "question": "Will mentors be assigned to each team? ",
+      "answer__limio_richtext": "Mentors will be assigned to each team to serve as guides on your projects."
+    },
+    {
+      "question": "What are the prizes to be won?",
+      "answer__limio_richtext": "There will be multiple prizes, but to highlight our grand prize: Access to pitch to the Venture Capital firm M12."
+    }
+  ],
+
+  "highlights": [
+    {
+      "heading": "10",
+      "subline": "Teams"
+    },
+    {
+      "heading": "100",
+      "subline": "Software Engineers"
+    },
+    {
+      "heading": "30",
+      "subline": "Hours +"
+    },
+    {
+      "heading": "$4,000",
+      "subline": "Worth of Prizes"
+    }
+  ]
 }
-
-
