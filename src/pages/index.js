@@ -3,8 +3,11 @@ import PropTypes from "prop-types";
 import Layout from "components/layout";
 import Box from "components/box";
 import PaddedBox from "components/paddedBox";
+import PurpleBox from "components/purpleBox";
 import Hero from "components/hero";
 import LastActionHero from "components/lastActionHero";
+import Highlights from "components/highlights";
+import Highlight from "components/highlights/highlight";
 import Description from "components/blurb";
 import FAQ from "components/FAQ";
 import Title from "components/title";
@@ -65,7 +68,17 @@ const Index = ({data}) => (
     <Box>
       <Gallery items={data.homeJson.gallery} />
     </Box>
-    <FAQ items={data.homeJson.faqItems}/>
+    <PurpleBox>
+      <Highlights>
+          {data.homeJson.highlights.map(item => (
+            <Highlight>
+              <h2>{item.heading}</h2>
+              <p>{item.subline}</p>
+            </Highlight>
+          ))}
+      </Highlights>
+    </PurpleBox>
+    <FAQ items={data.homeJson.faqItems} />
     <LastActionHero>
       <div>
         <img src={data.homeJson.laptop.childImageSharp.fluid.src} />
@@ -82,8 +95,8 @@ const Index = ({data}) => (
       </div>
     </LastActionHero>
     <Box>
-      <br/>
-      <br/>
+      <br />
+      <br />
       <p style={{textAlign: "center"}}>© 2019 GitHub</p>
     </Box>
   </Layout>
@@ -165,6 +178,10 @@ export const query = graphql`
       faqItems {
         question
         answer__limio_richtext
+      }
+      highlights {
+        heading
+        subline
       }
     }
   }
