@@ -10,7 +10,8 @@ export const Container = styled.div`
   width: 100%;
   margin: auto;
   background-image: ${props => (`url(${props.image})`)};
-  background-size: 1185px;
+  background-position: center;
+  background-repeat: no-repeat;
 
   ${MEDIA.TABLET`
     display: flex;
