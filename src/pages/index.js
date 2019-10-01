@@ -51,7 +51,7 @@ const Index = ({data}) => (
           showcasing their amazing talent and work.
           <br />
           <br />
-          Participating engineers will be split into groups of 10 and will compete for the ultimate prize.
+          Participating engineers will be split into groups of 5 and will compete for the ultimate prize.
         </AP>
         <AP>
           There will also be plenty of time to interact with professional mentors and engineers, meet recruiters, and
