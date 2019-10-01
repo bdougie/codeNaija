@@ -43,4 +43,10 @@ LayoutWithQuery.propTypes = {
   children: PropTypes.node.isRequired,
 };
 
+// attach smooth-scroll to any anchor tag containing a hashtag.
+if (typeof window !== "undefined") {
+  // eslint-disable-next-line global-require
+  require("smooth-scroll")('a[href*="#"]')
+}
+
 export default LayoutWithQuery;
