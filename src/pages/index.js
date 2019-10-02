@@ -43,6 +43,7 @@ const Index = ({data}) => (
           <h2 style={{textAlign: "center"}}>Powered by</h2>
           <Mooseheads items={data.homeJson.powered} />
         </div>
+        <div id="separator"></div>
         <div>
           <h2 style={{textAlign: "center"}}>Supported by</h2>
           <Mooseheads items={data.homeJson.supported} />
