@@ -7,14 +7,14 @@ export const Container = styled.div`
   grid-gap: 4rem;
   justify-items: center;
   padding: 0 4rem;
-  margin: 2rem 0;
+  margin: 3rem 0;
   align-items: center;
   grid-gap: 0;
 
 
   ${MEDIA.TABLET`
     display: block;
-    padding: 0;
+    padding: 0px;
     figure {
       margin-bottom: 35px;
       text-align: center;

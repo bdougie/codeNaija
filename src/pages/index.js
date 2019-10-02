@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import Layout from "components/layout";
 import Box from "components/box";
+import Grid from "components/gridBox";
 import PaddedBox from "components/paddedBox";
 import PurpleBox from "components/purpleBox";
 import Hero from "components/hero";
@@ -37,10 +38,26 @@ const Index = ({data}) => (
       </div>
     </Hero>
     <Box>
-      <h2 style={{textAlign: "center"}}>Powered by</h2>
-      <Mooseheads items={data.homeJson.powered} />
-      <h2 style={{textAlign: "center"}}>Supported by</h2>
-      <Mooseheads items={data.homeJson.supported} />
+      <Grid>
+        <div>
+          <h2 style={{textAlign: "center"}}>Powered by</h2>
+          <Mooseheads items={data.homeJson.powered} />
+        </div>
+        <div>
+          <h2 style={{textAlign: "center"}}>Supported by</h2>
+          <Mooseheads items={data.homeJson.supported} />
+        </div>
+      </Grid>
+      {/* <Description>
+        <div>
+        <h2 style={{textAlign: "center"}}>Powered by</h2>
+        <Mooseheads items={data.homeJson.powered} />
+        </div>
+        <div>
+        <h2 style={{textAlign: "center"}}>Supported by</h2>
+        <Mooseheads items={data.homeJson.supported} />
+        </div>
+      </Description> */}
     </Box>
     <Box>
       <h2 style={{textAlign: "center"}}>About</h2>
