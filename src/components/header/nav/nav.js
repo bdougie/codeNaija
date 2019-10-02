@@ -16,7 +16,7 @@ const Nav = () => (
         <Link to="/blacktocats">Blacktocats</Link>
       </li>
       <li>
-        <a href="#">FAQ's</a>
+        <a href="/#Faq">FAQ's</a>
       </li>
       <li>
         <a href="https://forms.gle/D3y3VVxTiugGPekk9">

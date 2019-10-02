@@ -36,7 +36,7 @@ export class FaqBanner extends React.Component {
     const { bgColor__limio_color, downArrowImg, headline, subline, faqItems } = this.props
 
     return (
-      <div className="FaqBanner" style={bannerStyle(bgColor__limio_color)}>
+      <div className="FaqBanner" id="Faq" style={bannerStyle(bgColor__limio_color)}>
         <div className="FaqWrapper">
           <h1>{headline}</h1>
           <h2>{subline}</h2>

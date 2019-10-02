@@ -10,11 +10,16 @@ export const Container = styled.div`
   width: 100%;
   margin: auto;
   background-image: ${props => (`url(${props.image})`)};
-  background-size: 1185px;
+  background-size: contain;
+  background-origin: content-box;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
 
   ${MEDIA.TABLET`
     display: flex;
     flex-direction: column;
+    background-image: none;
     background-repeat: no-repeat;
     img {
       margin: 16px 0;
