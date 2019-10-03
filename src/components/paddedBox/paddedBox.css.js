@@ -15,3 +15,21 @@ export const Container = styled.div`
   `};
 
 `;
+
+
+export const P = styled.p`
+  height: 100%;	
+  margin: 0 auto 6.5625rem;
+  color: #000000;	
+  font-family: "TT Norms", sans-serif;	
+  font-size: 1.875em;	
+  font-weight: 500;	
+  line-height: 1.2;	
+  text-align: center;
+
+  ${MEDIA.TABLET`
+    display: block;
+    max-width: 100%;
+  `};
+
+`;

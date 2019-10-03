@@ -5,7 +5,7 @@ import FaqBanner from "./index.js";
 
 export default function FAQ({items}) {
   const headline = "Frequently Asked Questions"
-  const subline = "Curious about attenfing a CodeNaija Hackathon? Browse some of the most common questions we receive below!"
+  const subline = "Curious about attending a CodeNaija Hackathon? Browse some of the most common questions we receive below!"
   return (
     <FaqBanner headline={headline} subline={subline} faqItems={items}/>
   );

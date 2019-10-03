@@ -62,13 +62,16 @@ export class FaqBanner extends React.Component {
               })
             }
           </div>
+          <p>
+            Have more questions? Send and email to xxx@xxx.com
+          </p>
         </div>
       </div>
     )
   }
 
   static defaultProps = {
-    bgColor__limio_color: '#ECECEC',
+    bgColor__limio_color: '#FFFFFF',
     downArrowImg: "https://image.flaticon.com/icons/svg/118/118738.svg",
     headline: 'Any questions?',
     subline: 'We’ve got answers.',

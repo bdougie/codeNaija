@@ -6,39 +6,47 @@
   text-align: center;
   overflow: hidden;
   width: 100%;
+  margin-bottom: 1.8125rem;
 }
 
 .FaqBanner .FaqWrapper {
-  max-width: 1200px;
+  max-width: 75em;
   position: relative;
   width: 100%;
 }
 
 .FaqBanner .FaqWrapper h1 {
-  margin-top: 2.5rem;
-  margin-bottom: 0rem;
+  height: 2.625rem;
+  line-height: 2.625rem;
+  color: #362354;
+  font-size: 2.1875em;
+  margin-bottom: 2.625rem;
   text-align: center;
 }
 
 .FaqBanner .FaqWrapper h2 {
-  font-weight: 400;
-  margin-bottom: 0rem;
-  margin-top: 0.5rem;
+  height: 3.75em;
+  width: 28.5625em;
+  margin: 0 auto 1.875em;
+  color: #2B2B2B;
+  font-size: 1.25em;
+  line-height: 1.5em;
   text-align: center;
 }
 
 .FaqBanner .FaqWrapper .AccordionContainer {
-  margin: 2.5rem 1rem;
+  width: 895px;
+  margin: 2.5rem auto 2rem;
 }
 
 .FaqBanner .FaqWrapper .AccordionContainer .FaqItem {
   margin: 0.5rem auto;
-  max-width: 900px;
+  max-width: 100%;
 }
 
 .FaqBanner .FaqWrapper .AccordionContainer .FaqItem .AccordionItem {
   align-items: center;
-  background-color: #FFFFFF;
+  background-color: #CDDBFF;
   border: none;
   color: #444;
   cursor: pointer;
@@ -68,12 +76,13 @@
 }
 
 .FaqBanner .FaqWrapper .AccordionContainer .FaqItem .Answer {
-  margin: 0;
+  width: 85%;
+  margin: 1.125em 0 0.9375em;
   opacity: 0.9;
 }
 
 .FaqBanner .FaqWrapper .AccordionContainer .FaqItem .Panel {
-  background-color: #FFFFFF;
+  background-color: #F5F5F9;
   max-height: 0rem;
   overflow: hidden;
   padding: 0 2rem;
@@ -82,7 +91,7 @@
 }
 
 .FaqBanner .FaqWrapper .AccordionContainer .FaqItem .Panel.active {
-  max-height: 10rem;
+  max-height: 14rem;
   padding: 0rem 2rem 1rem 2rem;
 }
 
@@ -92,16 +101,3 @@
     padding: 2px;
   }
 }
-
-h1 {
-  font-weight: 600;
-  font-size: 2.5rem;
-  margin-bottom: 1.2rem !important;
-}
-
-h2 {
-  margin: auto;
-  font-size: 1.5rem !important;
-  text-align: center;
-}
-

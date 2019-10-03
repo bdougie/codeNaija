@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import Layout from "components/layout";
 import Box from "components/box";
+import About from "components/about";
 import Grid from "components/gridBox";
 import PaddedBox from "components/paddedBox";
 import PurpleBox from "components/purpleBox";
@@ -16,6 +17,8 @@ import Gallery from "components/gallery";
 import Mooseheads from "components/mooseheads";
 import {Button} from "components/button/button.css";
 import {Paragraph as AP} from "components/blurb/blurb.css";
+import {P as AboutParagraph} from "components/paddedBox/paddedBox.css";
+import { AboutHeader } from "components/about/about.css";
 import IOExample from "components/io-example";
 import {graphql} from "gatsby";
 import styled from "styled-components";
@@ -23,12 +26,12 @@ import styled from "styled-components";
 const Index = ({data}) => (
   <Layout>
     <Hero image={data.homeJson.hero.childImageSharp.fluid.src}>
-      <div>
-        <small style={{fontSize: 12, textTransform: "uppercase"}}>26th & 27th October 2019</small>
+      <div id="banner">
+        <small id="date" style={{fontSize: 12, textTransform: "uppercase"}}>26th & 27th October 2019</small>
         <Title as="h1" size="large">
-          CodeNaija <em style={{color: "#006EC6"}}>Hackathon</em>
+          CodeNaija <em style={{color: "#006EC6"}}>Hackathon 2019</em>
         </Title>
-        <p style={{fontSize: 12}}>... building technology for social good</p>
+        <p style={{fontSize: 16}}>... building technology for social good</p>
         <a href="https://forms.gle/D3y3VVxTiugGPekk9">
           <Button>Register Now</Button>
         </a>
@@ -40,48 +43,43 @@ const Index = ({data}) => (
     <Box>
       <Grid>
         <div>
-          <h2 style={{textAlign: "center"}}>Powered by</h2>
+          <h2 style={{textAlign: "center"}} className="gridH2">Powered by</h2>
           <Mooseheads items={data.homeJson.powered} />
         </div>
         <div id="separator"></div>
         <div>
-          <h2 style={{textAlign: "center"}}>Supported by</h2>
+          <h2 style={{textAlign: "center"}} className="gridH2">Supported by</h2>
           <Mooseheads items={data.homeJson.supported} />
         </div>
       </Grid>
-      {/* <Description>
-        <div>
-        <h2 style={{textAlign: "center"}}>Powered by</h2>
-        <Mooseheads items={data.homeJson.powered} />
-        </div>
-        <div>
-        <h2 style={{textAlign: "center"}}>Supported by</h2>
-        <Mooseheads items={data.homeJson.supported} />
-        </div>
-      </Description> */}
     </Box>
-    <Box>
-      <h2 style={{textAlign: "center"}}>About</h2>
+    <About>
+      <AboutHeader> About </AboutHeader>
       <Description>
         <AP>
-          CodeNaija Hackathon 2019 is a Nigerian hackathon hosted by Andela and the Blacktocats, GitHub's Black Employee
-          Resource Group. The goal of the hackathon is to highlight the existing community of Nigerian developers by
-          showcasing their amazing talent and work.
+          CodeNaija Hackathon 2019 is a Nigerian 
+          hackathon hosted by Andela and the Blacktocats, GitHub's Black Employee
+          Resource Group. 
           <br />
           <br />
           Participating engineers will be split into groups of 5 and will compete for the ultimate prize.
         </AP>
         <AP>
-          There will also be plenty of time to interact with professional mentors and engineers, meet recruiters, and
+        The goal of the hackathon is to highlight the existing community of Nigerian developers by showcasing their 
+        amazing talent and work.
+          <br/>
+          <br/>
+          There will also be plenty of time to interact with professional mentors and engineers, meet recruiters, and 
           listen to great tech talks and tutorials from sponsors.
         </AP>
       </Description>
-    </Box>
+    </About>
     <PaddedBox>
-      <p>
-        Join us at Andela EPIC Towers for +30 hours hours of hacking from Saturday 26th October from 9:30 AM - 9:00 PM
-        and Sunday 27th October from 11:00 AM - 8:00 PM.
-      </p>
+      <AboutParagraph>
+          Join us at Andela EPIC Towers for +30 hours of hacking from 
+          Saturday 26th October from 9:30 AM - 9:00 PM
+          and Sunday 27th October from 11:00 AM - 8:00 PM.
+      </AboutParagraph>
     </PaddedBox>
     <Box>
       <Gallery items={data.homeJson.gallery} />

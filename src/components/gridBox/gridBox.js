@@ -7,7 +7,7 @@ const Grid = ({ children }) => (
 );
 
 Grid.propTypes = {
-  items: PropTypes.arrayOf(PropTypes.object).isRequired,
+  children: PropTypes.arrayOf(PropTypes.object).isRequired,
 };
 
 export default Grid;

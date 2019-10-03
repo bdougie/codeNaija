@@ -5,7 +5,6 @@ export const Container = styled.div`
   align-items: baseline;
   display: flex;
   justify-content: space-between;
-  padding: 2rem 0;
   max-width: 100%;
   margin: auto;
 
@@ -19,7 +18,8 @@ export const Container = styled.div`
 
 export const Paragraph = styled.p`
   line-height: 1.5;
-  max-width: 45%;
+  font-size: 1.25em;
+  width: 21.0625em;
 
   ${MEDIA.TABLET`
     display: block;
