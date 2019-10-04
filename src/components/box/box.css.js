@@ -6,6 +6,9 @@ export const Container = styled.div`
   margin: auto;
 
   ${MEDIA.TABLET`
+    max-width: 90%;
+    width: 90%;
+    margin: auto;
     display: flex;
     flex-direction: column;
     text-align: center;

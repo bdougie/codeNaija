@@ -8,6 +8,16 @@ export const Title = styled.span`
   font-weight: 500;
   margin: 0 auto 0.8125em;
   text-align: center;
+
+  ${MEDIA.TABLET`
+    margin-bottom: 13px;
+    height: 30px;	
+    color: #362B54;
+    font-size: 25px;	
+    font-weight: bold;	
+    line-height: 30px;	
+    text-align: center;
+  `};
 `;
 
 export const Copy = styled.p`
@@ -19,7 +29,12 @@ export const Copy = styled.p`
   width: 100%;			
 
   ${MEDIA.TABLET`
-    margin-bottom: 4rem;
+    margin-bottom: 60px;
+    height: 90px;	
+    color: #2B2B2B;	
+    font-size: 20px;	
+    line-height: 30px;	
+    text-align: center;
   `};
 `;
 
@@ -42,5 +57,16 @@ export const Figure = styled.figure`
     height: 8.3125em;
     margin-bottom: 0.8125em;
   }
+  ${MEDIA.TABLET`
+    img {
+      display: block;
+      height: 100%;
+    }
 
+    figcaption {
+      margin-top: 35px;
+    }
+
+    figcaption 
+  `};
 `;

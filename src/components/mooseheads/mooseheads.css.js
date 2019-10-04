@@ -16,7 +16,7 @@ export const Container = styled.div`
     display: block;
     padding: 0;
     figure {
-      margin-bottom: 35px;
+      margin-bottom: 40px;
       text-align: center;
     }
   `};

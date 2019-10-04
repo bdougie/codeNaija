@@ -19,6 +19,7 @@ import {Button} from "components/button/button.css";
 import {Paragraph as AP} from "components/blurb/blurb.css";
 import {P as AboutParagraph} from "components/paddedBox/paddedBox.css";
 import { AboutHeader } from "components/about/about.css";
+import { H1 as BannerH1} from "components/hero/hero.css";
 import IOExample from "components/io-example";
 import {graphql} from "gatsby";
 import styled from "styled-components";
@@ -27,11 +28,11 @@ const Index = ({data}) => (
   <Layout>
     <Hero image={data.homeJson.hero.childImageSharp.fluid.src}>
       <div id="banner">
-        <small id="date" style={{fontSize: 12, textTransform: "uppercase"}}>26th & 27th October 2019</small>
-        <Title as="h1" size="large">
+        <small>26th & 27th October 2019</small>
+        <BannerH1 as="h1" size="large">
           CodeNaija <em style={{color: "#006EC6"}}>Hackathon 2019</em>
-        </Title>
-        <p style={{fontSize: 16}}>... building technology for social good</p>
+        </BannerH1>
+        <p>... building technology for social good</p>
         <a href="https://forms.gle/D3y3VVxTiugGPekk9">
           <Button>Register Now</Button>
         </a>
@@ -65,8 +66,8 @@ const Index = ({data}) => (
           Participating engineers will be split into groups of 5 and will compete for the ultimate prize.
         </AP>
         <AP>
-        The goal of the hackathon is to highlight the existing community of Nigerian developers by showcasing their 
-        amazing talent and work.
+          The goal of the hackathon is to highlight the existing community of Nigerian developers by showcasing their 
+          amazing talent and work.
           <br/>
           <br/>
           There will also be plenty of time to interact with professional mentors and engineers, meet recruiters, and 
@@ -104,7 +105,7 @@ const Index = ({data}) => (
         <h2>
           CodeNaija <em style={{color: "#006EC6"}}>Hackathon</em>
         </h2>
-        <p style={{fontSize: 12}}>... building technology for social good</p>
+        <p>... building technology for social good</p>
         <a href="https://forms.gle/D3y3VVxTiugGPekk9">
           <Button>Register Now</Button>
         </a>

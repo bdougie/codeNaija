@@ -12,6 +12,9 @@ export const Container = styled.div`
   ${MEDIA.TABLET`
     display: block;
     max-width: 100%;
+    width: 90%;
+    margin: 0 auto 71px;
+    padding: 0;
   `};
 
 `;
@@ -30,6 +33,12 @@ export const P = styled.p`
   ${MEDIA.TABLET`
     display: block;
     max-width: 100%;
+    height: 180px;
+    color: #000000;	
+    font-size: 20px;	
+    font-weight: 500;	
+    line-height: 30px;	
+    text-align: center;
   `};
 
 `;

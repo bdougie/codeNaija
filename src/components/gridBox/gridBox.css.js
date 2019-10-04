@@ -26,10 +26,21 @@ export const Container = styled.div`
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 0px;
+    height: fit-content;
+    margin-bottom: 81px;
 
     figure {
       margin-bottom: 35px;
       text-align: center;
+    }
+
+    .gridH2 {
+      height: 30px;
+      color: #060506;
+      font-size: 25px;
+      font-weight: bold;
+      line-height: 30px;
+      margin-bottom: 35px;
     }
   `};
 `;

@@ -10,9 +10,10 @@ export const Container = styled.div`
   margin-bottom: 105px;
 
   ${MEDIA.TABLET`
-    display: flex;
-    flex-direction: column;
-    text-align: cener;
+    height: fit-content
+    text-align: center;
+    margin-bottom: 77px;
+    padding: 75px 0 101px;
   `};
 `;
 

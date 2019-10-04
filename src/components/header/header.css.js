@@ -1,4 +1,6 @@
 import styled from 'styled-components';
+import MEDIA from 'helpers/mediaTemplates';
+
 
 export const Container = styled.header`
   display: flex;
@@ -22,4 +24,10 @@ export const Container = styled.header`
   img {
     max-height: 3rem;
   }
+
+  ${MEDIA.TABLET`
+    padding: 0 0 0 8px;
+    margin: 0 0 52px 0;
+    width: 50%;
+  `};
 `;

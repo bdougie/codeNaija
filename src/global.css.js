@@ -101,10 +101,6 @@ export default createGlobalStyle`
     max-width: 100%;
   }
 
-  p {
-    margin-bottom: 2rem;
-  }
-
   ${MEDIA.TABLET`
     display: block;
   `};

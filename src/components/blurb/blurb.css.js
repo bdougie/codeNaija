@@ -11,6 +11,7 @@ export const Container = styled.div`
   ${MEDIA.TABLET`
     display: block;
     max-width: 100%;
+    padding-bottom: 93px;
   `};
 
 `;
@@ -22,7 +23,12 @@ export const Paragraph = styled.p`
   width: 21.0625em;
 
   ${MEDIA.TABLET`
+    text-align: left;
+    color: #2B2B2B;
+    font-size: 20px;
+    line-height: 31px;
     display: block;
     max-width: 100%;
+    margin-bottom: 32px;
   `};
 `

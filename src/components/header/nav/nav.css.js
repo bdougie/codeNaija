@@ -11,9 +11,14 @@ export const Container = styled.nav`
     li {
       text-transform: uppercase;
       font-size: 1.3rem;
+      
 
       & + li {
         margin-left: 2rem;
+      }
+
+      a{
+        color: #060506;
       }
     }
   }
