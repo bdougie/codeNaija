@@ -109,7 +109,16 @@
     font-size: 90%;
     width: 95%;
     margin: 0 auto;
+    padding-bottom: 77px;
   }
+
+  .FaqBanner p:last-child{
+    height: 60px;
+    font-size: 20px;	
+    line-height: 30px;	
+    text-align: center;
+  }
+
 
   .FaqBanner .FaqWrapper h1 {
     height: 60px;
