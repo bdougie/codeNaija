@@ -37,12 +37,6 @@ export const Container = styled.div`
   ${MEDIA.TABLET`
     display: flex;
     flex-direction: column-reverse;
-    align-items: center;
-    padding: 0;
-    max-width: 100%;
-    width: 100%
-    margin: 0;
-    text-align: center;
 
     img {
       margin: 16px 0;
