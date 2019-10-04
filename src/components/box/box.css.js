@@ -2,13 +2,15 @@ import styled from 'styled-components';
 import MEDIA from 'helpers/mediaTemplates';
 
 export const Container = styled.div`
-  padding: 2rem 4rem;
   max-width: 80%;
   margin: auto;
 
   ${MEDIA.TABLET`
+    max-width: 90%;
+    width: 90%;
+    margin: auto;
     display: flex;
     flex-direction: column;
-    text-align: cener;
+    text-align: center;
   `};
 `;

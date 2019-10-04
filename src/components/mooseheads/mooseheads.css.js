@@ -9,14 +9,14 @@ export const Container = styled.div`
   padding: 0 4rem;
   margin: 2rem 0;
   align-items: center;
-  grid-gap: 0;
+  grid-gap: 30px;
 
 
   ${MEDIA.TABLET`
     display: block;
-
+    padding: 0;
     figure {
-      margin-bottom: 35px;
+      margin-bottom: 40px;
       text-align: center;
     }
   `};
