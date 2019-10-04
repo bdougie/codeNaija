@@ -63,7 +63,7 @@ export class FaqBanner extends React.Component {
             }
           </div>
           <p>
-            Have more questions? Send and email to xxx@xxx.com
+            Have more questions? Send and email to info@andela.com
           </p>
         </div>
       </div>
