@@ -126,6 +126,14 @@
     display: none;
   }
 
+  .FaqBanner .FaqWrapper p:last-child{
+    height: 60px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    margin: 77px auto 84px;
+  }
+
   .FaqBanner .FaqWrapper .AccordionContainer {
     width: 100%;
     margin: 2.5rem auto 2rem;

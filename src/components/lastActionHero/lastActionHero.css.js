@@ -36,10 +36,56 @@ export const Container = styled.div`
 
   ${MEDIA.TABLET`
     display: flex;
+    align-items: flex-start;
     flex-direction: column-reverse;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    max-width: 100%;
+    // width: 100%;
 
     img {
       margin: 16px 0;
+    }
+
+    div:first-child {
+      width: 100%;
+    }
+
+    div:last-child {
+      width: 100%;
+
+      small {
+        display: block;
+        height: 15px;	
+        color: #362B54;	
+        font-size: 12.8px;	
+        font-weight: bold;	
+        line-height: 15px;
+        margin-bottom: 6px;
+      }
+
+      h2{
+        height: 72px;
+        width: 60%;
+        margin: 0 auto;
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 36px;
+        text-align: center;
+        margin-bottom: 6px;
+      }
+
+      p {	
+        height: 15px;	
+        font-size: 12.8px;	
+        line-height: 15px;
+      }
+
+      a {
+        display: block;
+        margin-bottom: 101px;
+      }
     }
   `};
 `;

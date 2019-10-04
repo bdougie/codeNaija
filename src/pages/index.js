@@ -103,7 +103,7 @@ const Index = ({data}) => (
       <div>
         <small>26th & 27th October 2019</small>
         <h2>
-          CodeNaija <em style={{color: "#006EC6"}}>Hackathon</em>
+          CodeNaija <em style={{color: "#006EC6"}}>Hackathon 2019</em>
         </h2>
         <p>... building technology for social good</p>
         <a href="https://forms.gle/D3y3VVxTiugGPekk9">
@@ -114,7 +114,7 @@ const Index = ({data}) => (
     <Box>
       <br />
       <br />
-      <p style={{textAlign: "center"}}>© 2019 GitHub</p>
+      <p style={{textAlign: "center"}} id="footer">© 2019 GitHub</p>
     </Box>
   </Layout>
 );

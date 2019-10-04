@@ -12,5 +12,12 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     text-align: center;
+
+    #footer {
+      height: 19px;
+      // color: #FFFFFF;
+      font-size: 16px;
+      line-height: 19px;
+    }
   `};
 `;
