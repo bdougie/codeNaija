@@ -36,10 +36,20 @@ export const Container = styled.div`
 
   ${MEDIA.TABLET`
     display: flex;
+    align-items: flex-start;
     flex-direction: column-reverse;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    max-width: 100%;
+    // width: 100%;
 
     img {
       margin: 16px 0;
+    }
+
+    div:first-child {
+      width: 100%;
     }
 
     div:last-child {
