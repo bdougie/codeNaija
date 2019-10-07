@@ -3,7 +3,10 @@ import PropTypes from 'prop-types';
 
 const Moose = ({ title, copy, image }) => (
   <figure>
-    <img style={{maxHeight: 40}} src={image.childImageSharp.fluid.src} alt={title} />
+    {image.childImageSharp.fluid.src.includes('microsoft') ?
+      <img src={image.childImageSharp.fluid.src} alt={title}/> :
+      <img style={{maxHeight: 40}} src={image.childImageSharp.fluid.src} alt={title}/>
+    }
   </figure>
 );
 
