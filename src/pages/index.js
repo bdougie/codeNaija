@@ -44,7 +44,7 @@ const Index = ({data}) => (
       </div>
     </Hero>
     <Box>
-      <Countdown />
+      <Countdown eventDate={data.homeJson.eventDate}/>
       <Grid>
         <div>
           <h2 style={{textAlign: "center"}} className="gridH2">Powered by</h2>
@@ -130,6 +130,7 @@ export const query = graphql`
   query HomepageQuery {
     homeJson {
       title
+      eventDate
       laptop {
         childImageSharp {
           fluid(maxHeight: 200, quality: 90) {

@@ -5,6 +5,7 @@
   "logo": "../images/gallery/logo.png",
   "main": "../images/gallery/main.png",
   "hero": "../images/gallery/hero.png",
+  "eventDate":"26/10/2019 09:00:00",
   "gallery": [
     {
       "title": "Showcase",
@@ -100,7 +101,6 @@
       "answer__limio_richtext": "There will be multiple prizes, but to highlight our grand prize: Access to pitch to the Venture Capital firm M12."
     }
   ],
-
   "highlights": [
     {
       "heading": "20",
