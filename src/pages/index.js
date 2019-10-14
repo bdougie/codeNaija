@@ -114,7 +114,7 @@ const Index = ({data}) => (
     <Box>
       <br />
       <br />
-      <p style={{textAlign: "center"}} id="footer">© 2019 GitHub</p>
+      <p id="footer">© 2019 GitHub Blacktocats</p>
     </Box>
   </Layout>
 );
