@@ -13,6 +13,7 @@ import Highlight from "components/highlights/highlight";
 import Description from "components/blurb";
 import FAQ from "components/FAQ";
 import Footer from "components/footer";
+import Countdown from "components/countdown";
 import Title from "components/title";
 import Gallery from "components/gallery";
 import Mooseheads from "components/mooseheads";
@@ -43,6 +44,7 @@ const Index = ({data}) => (
       </div>
     </Hero>
     <Box>
+      <Countdown eventDate={data.homeJson.eventDate}/>
       <Grid>
         <div>
           <h2 style={{textAlign: "center"}} className="gridH2">Powered by</h2>
@@ -128,6 +130,7 @@ export const query = graphql`
   query HomepageQuery {
     homeJson {
       title
+      eventDate
       laptop {
         childImageSharp {
           fluid(maxHeight: 200, quality: 90) {

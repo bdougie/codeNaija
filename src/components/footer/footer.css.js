@@ -3,7 +3,6 @@ import MEDIA from 'helpers/mediaTemplates';
 
 export const Container = styled.div`
   max-width: 100%;
-  background-color: 
   margin: auto;
   background-color: #362B54;
   padding: 37px 0 40px 0;
