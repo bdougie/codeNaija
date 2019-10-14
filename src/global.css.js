@@ -1,8 +1,14 @@
 import {createGlobalStyle} from "styled-components";
 import {accent} from "constants/theme";
 import MEDIA from 'helpers/mediaTemplates';
+import TTNorms from '../static/fonts';
 
 export default createGlobalStyle`
+  @font-face{
+    font-family: 'TTNorms';
+    src: url('${TTNorms}') format('woff');
+  }
+
   html, body, div, span, applet, object, iframe,
   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
   a, abbr, acronym, address, big, cite, code,
@@ -21,6 +27,8 @@ export default createGlobalStyle`
     border: 0;
     font: inherit;
     vertical-align: baseline;
+    font-family: 'TTNorms', sans-serif;
+    font-variant-ligatures: no-common-ligatures;
   }
 
   /* HTML5 display-role reset for older browsers */

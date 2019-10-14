@@ -3,7 +3,7 @@ import MEDIA from 'helpers/mediaTemplates';
 
 export const Container = styled.div`
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 45% 10% 45%;
   justify-items: center;
   padding: 0 4rem;
   margin: 0 auto 4.8125rem;
@@ -13,7 +13,7 @@ export const Container = styled.div`
 
   #separator {
     width: 1px;
-    height: 80%;
+    height: 40%;
     background: #3359df;
   }
 

@@ -12,6 +12,7 @@ import Highlights from "components/highlights";
 import Highlight from "components/highlights/highlight";
 import Description from "components/blurb";
 import FAQ from "components/FAQ";
+import Footer from "components/footer";
 import Title from "components/title";
 import Gallery from "components/gallery";
 import Mooseheads from "components/mooseheads";
@@ -111,11 +112,9 @@ const Index = ({data}) => (
         </a>
       </div>
     </LastActionHero>
-    <Box>
-      <br />
-      <br />
-      <p style={{textAlign: "center"}} id="footer">© 2019 GitHub</p>
-    </Box>
+    <Footer>
+      <p id="footer">© 2019 GitHub Blacktocats</p>
+    </Footer>
   </Layout>
 );
 
