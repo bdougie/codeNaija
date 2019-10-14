@@ -29,8 +29,16 @@ export const Container = styled.div`
     height: fit-content;
     margin-bottom: 81px;
 
+    div{
+      margin-bottom: 30px;
+    }
+
+    div#separator{
+      display: none;
+    }
+
     figure {
-      margin-bottom: 35px;
+      margin-bottom: 10px;
       text-align: center;
     }
 
@@ -40,7 +48,7 @@ export const Container = styled.div`
       font-size: 25px;
       font-weight: bold;
       line-height: 30px;
-      margin-bottom: 35px;
+      margin-bottom: 15px;
     }
   `};
 `;
