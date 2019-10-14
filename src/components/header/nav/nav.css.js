@@ -19,6 +19,7 @@ export const Container = styled.nav`
 
       a{
         color: #060506;
+        font-weight: bold;
       }
     }
   }
