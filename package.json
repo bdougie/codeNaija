@@ -65,7 +65,7 @@
     "gatsby-plugin-eslint": "^2.0.3",
     "lighthouse": "^5.5.0",
     "mkdirp": "^0.5.1",
-    "node-gyp": "^5.0.4",
+    "node-gyp": "^6.0.1",
     "prettier": "^1.16.0"
   }
 }
