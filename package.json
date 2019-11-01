@@ -50,7 +50,7 @@
   "devDependencies": {
     "ava": "^2.4.0",
     "babel-eslint": "^10.0.3",
-    "chrome-launcher": "^0.11.2",
+    "chrome-launcher": "^0.12.0",
     "core-js": "^3.2.1",
     "directory-named-webpack-plugin": "^4.0.0",
     "eslint": "^6.5.1",
