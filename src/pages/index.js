@@ -44,7 +44,7 @@ const Index = ({data}) => (
       </div>
     </Hero>
     <Box>
-      <Countdown eventDate={data.homeJson.eventDate}/>
+      {/* Commenting out for now: <Countdown eventDate={data.homeJson.eventDate}/> */}
       <Grid>
         <div>
           <h2 style={{textAlign: "center"}} className="gridH2">Powered by</h2>
