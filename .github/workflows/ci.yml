@@ -13,6 +13,8 @@ jobs:
     
     steps:
     - uses: jitterbit/await-check-suites@v1
+      with:
+        appSlugFilter: netlify
     - uses: actions/checkout@v1
 
     - name: Use Node.js ${{ matrix.node-version }}
