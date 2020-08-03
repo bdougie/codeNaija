@@ -1,6 +1,7 @@
 name: Node CI
 
-on:   
+on:
+  status:   
   check_suite:
     types: [completed]
 
@@ -19,7 +20,7 @@ jobs:
       id: wait-for-build
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        checkName: logs4netlify
+        checkName: netlify
         ref: ${{ github.event.pull_request.head.sha || github.sha }}
     - uses: actions/checkout@v1
 
