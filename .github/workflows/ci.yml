@@ -19,7 +19,7 @@ jobs:
       id: wait-for-build
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        checkName: netlify
+        checkName: logs4netlify
         ref: ${{ github.event.pull_request.head.sha || github.sha }}
     - uses: actions/checkout@v1
 
