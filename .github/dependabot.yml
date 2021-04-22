@@ -1,0 +1,56 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: monthly
+    time: "13:00"
+  open-pull-requests-limit: 10
+  assignees:
+  - bdougie
+  versioning-strategy: increase-if-necessary
+  ignore:
+  - dependency-name: gatsby
+    versions:
+    - ">= 2.16.a"
+    - "< 2.17"
+  - dependency-name: gatsby-image
+    versions:
+    - "> 2.2.23"
+    - "< 2.3"
+  - dependency-name: gatsby-plugin-offline
+    versions:
+    - ">= 3.0.7.a"
+    - "< 3.0.8"
+  - dependency-name: gatsby-plugin-sharp
+    versions:
+    - ">= 2.2.24.a"
+    - "< 2.2.25"
+  - dependency-name: gatsby-plugin-sharp
+    versions:
+    - "> 2.2.25"
+    - "< 2.3"
+  - dependency-name: gatsby-source-filesystem
+    versions:
+    - "> 2.1.28"
+    - "< 2.2"
+  - dependency-name: gatsby-transformer-remark
+    versions:
+    - ">= 2.6.23.a"
+    - "< 2.6.24"
+  - dependency-name: gatsby-transformer-remark
+    versions:
+    - "> 2.6.24"
+    - "< 2.7"
+  - dependency-name: gatsby-transformer-sharp
+    versions:
+    - "> 2.2.17"
+    - "< 2.3"
+  - dependency-name: react
+    versions:
+    - "> 16.10.1"
+    - "< 16.11"
+  - dependency-name: react-dom
+    versions:
+    - "> 16.10.1"
+    - "< 16.11"
