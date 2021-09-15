@@ -43,7 +43,7 @@
     "react-dom": "^16.10.1",
     "react-helmet": "^5.2.0",
     "react-pose": "^4.0.5",
-    "set-value": "3.0.1",
+    "set-value": "4.0.1",
     "smooth-scroll": "16.1.0",
     "styled-components": "^5.0.0"
   },
